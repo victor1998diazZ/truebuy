@@ -87,10 +87,105 @@ li a{
     height: 68;
     font-size: 30px;
 }
+.furniture_prices{
+    position: relative;
+}
 .furniture_prices_krita_circle--content{
-    background-color: #363325;
-    width: 215px;
-    height: 27;
-    /* padding: 20px; */
+    background-color: #454438;
+    width: 214px;
+    height: 250px;
+    padding: 20px;
     border-radius: 30px;
+    position: absolute;
+    left: 37px;
+    top: 70px;
+}
+.furniture_prices_krita_circle--content_title, 
+.furniture_prices_krita_circle--content_desc, 
+.furniture_prices_krita_circle--content-price, 
+.furnitreu_prices_krita_circle--content_shop, 
+
+.furniture_prices_vimle_circle--content_title, 
+.furniture_prices_vimle_circle--content_desc, 
+.furniture_prices_vimle_circle--content-price, 
+.furniture_prices_vimle_circle--content_shop{
+    padding: 10px;
+}
+.furniture_prices_krita_circle--content_title{
+    color: #eeedea;
+    text-align: center;
+}
+.furniture_prices_krita_circle--content_desc{
+    color: #a5a59d;
+    text-align: center;
+}
+.furniture_prices_krita_circle--content-price{
+    color: #bbba9b;
+    text-align: center;
+    font-size: 20PX;
+}
+.furniture_prices_krita_circle--content_shop > p{
+    border: 1px solid #908f76;
+    width: max-content;
+    padding: 20px;
+    border-radius: 20px;
+    color: #cccba8;
+    width: 152PX;
+    text-align: center;
+}
+.furniture_prices_krita_circle{
+    position: relative;
+}
+.furniture_prices_krita_circle--cirlce{
+    background-color: #454438;
+    width: 23px;
+    height: 23px;
+    border-radius: 15px;
+    position: absolute;
+    top: 336px;
+    left: 127px;
+}
+.furniture_prices_vimle{
+    position: relative;
+}
+.furniture_prices_vimle_circle--content{
+    background-color: #454438;
+    width: 214px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 30px;
+    position: absolute;
+    top: 47px;
+    right: 515px
+}
+.furniture_prices_vimle_circle--content_title{
+    color: #eeedea;
+    text-align: center;
+} 
+.furniture_prices_vimle_circle--content_desc{
+    color: #a5a59d;
+    text-align: center;
+} 
+.furniture_prices_vimle_circle--content-price{
+    color: #bbba9b;
+    text-align: center;
+    font-size: 20PX;
+}
+.furniture_prices_vimle_circle--content_shop{
+    border: 1px solid #908f76;
+    width: max-content;
+    padding: 20px;
+    border-radius: 20px;
+    color: #cccba8;
+    width: 152PX;
+    text-align: center;
+}
+.furniture_prices_vimle_circle--cirlce{
+    background-color: #454438;
+    width: 23px;
+    height: 23px;
+    border-radius: 15px;
+    position: absolute;
+    right: 612px;
+    top: 312px;
 }
