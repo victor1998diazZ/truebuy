@@ -26,23 +26,71 @@ nav ul{
     display: flex;
     list-style: none;
 }
-ul{
-    margin-right: 30px;
+nav ul{
+    margin-right: 20px;
 }
-li{
-    margin-left: 20px;
+ul li{
+    margin-right: 50px;
+}
+ul li:last-child{
+    margin-left: 0;
 }
 li a{
     text-decoration: none;
-    margin-left: 108px;
     color: #87877e;
-}
-li:last-child{
-    margin-left: 0;
 }
 .navigator_nav_store_profile{
     display: flex;
+    cursor: pointer;
 }
 .navigator_nav_store_profile--store{
     margin-right: 30px;
+}
+.furniture{
+    background: url(img/background.png) no-repeat center /100%;
+    padding: 86px 0;
+    min-height: 832px;
+}
+.furniture_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+.furniture_container_search h2{
+    margin-bottom: 51px;
+}
+.furniture_container_search > h2{
+    width: 511px;
+    height: 99;
+    font-size: 60px;
+}
+.furniture_container_search--bar > input{
+    width: 468px;
+    height: 42px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.furniture_container_search--bar > button{
+    width: 153px;
+    height: 42px;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    position: absolute;
+    background-color: #2d2d1f;
+    color: #bdbdb9;
+    bottom: 1px;
+    left: 316px;
+}
+.furniture_container_desc{
+    width: 569px;
+    height: 68;
+    font-size: 30px;
+}
+.furniture_prices_krita_circle--content{
+    background-color: #363325;
+    width: 215px;
+    height: 27;
+    /* padding: 20px; */
+    border-radius: 30px;
 }
