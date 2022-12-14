@@ -25,8 +25,6 @@ nav{
 nav ul{
     display: flex;
     list-style: none;
-}
-nav ul{
     margin-right: 20px;
 }
 ul li{
@@ -50,6 +48,7 @@ li a{
     background: url(img/background.png) no-repeat center /100%;
     padding: 86px 0;
     min-height: 832px;
+    margin-bottom: 100px;
 }
 .furniture_container{
     display: grid;
@@ -132,6 +131,7 @@ li a{
     color: #cccba8;
     width: 152PX;
     text-align: center;
+    cursor: pointer;
 }
 .furniture_prices_krita_circle{
     position: relative;
@@ -179,6 +179,7 @@ li a{
     color: #cccba8;
     width: 152PX;
     text-align: center;
+    cursor: pointer;
 }
 .furniture_prices_vimle_circle--cirlce{
     background-color: #454438;
@@ -188,4 +189,38 @@ li a{
     position: absolute;
     right: 612px;
     top: 312px;
+}
+.categories_content--title{
+    font-size: 30px;
+    padding-bottom: 101px;
+}
+.categories_content--first-category{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 62px;
+    position: relative;
+}
+.categories_content--first-category--item{
+    background-color: #eeedea;
+    width: 250px;
+    height: 176.42px;
+    border-radius: 20px;
+}
+.categories_content--first-category--item img{
+    display: flex;
+    margin: 0 auto;
+    right: 5px;
+    bottom: 65px;
+    position: relative;
+}
+.categories_content--first-category--item > p{
+    position: absolute;
+    font-size: 20px;
+    margin: 0 100px;
+    bottom: 13px;
+}
+.categories_content--second-category{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
