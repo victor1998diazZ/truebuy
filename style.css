@@ -294,6 +294,9 @@ li a{
     height: 42px;
     cursor: pointer;
 }
+.review{
+    margin-bottom: 100px;
+}
 .review_our_title{
     font-size: 30px;
     text-align: center;
@@ -318,9 +321,11 @@ li a{
 }
 .review_discount{
     width: 1215px;
-    height: 401;
-    padding: 200px 110px;
-    background: url(img/review.png) no-repeat center;
+    /* height: 401px; */
+    border-radius: 40px;
+    background-color: gray;
+    background: url(img/review.png) no-repeat center /100%;
+    padding: 100px;
 }
 .review_discount h2{
     color: aliceblue;
@@ -337,10 +342,32 @@ li a{
     height: 42px;
     cursor: pointer;
 }
-
 .footer_content{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     background-color: #eeedea;
-    padding-top: 100px;
+    height: 300px;
+}
+.footer_company, .footer_support, .foote_legal{
+    padding: 90px;
+}
+.footer_company h3, .footer_support h3, .foote_legal h3{
+    color: #2d2d1f;
+    font-size: 25px;
+    padding-bottom: 14px;
+}
+.footer_company ul, .footer_support ul, .foote_legal ul{
+    list-style: none;
+}
+.footer_company li, .footer_support li, .foote_legal li{
+    padding-bottom: 12px;
+}
+.footer_getIn > img{
+    padding-bottom: 16px;
+}
+.footer_getIn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
 }
