@@ -80,6 +80,7 @@ li a{
     color: #bdbdb9;
     bottom: 1px;
     left: 316px;
+    cursor: pointer;
 }
 .furniture_container_desc{
     width: 569px;
@@ -223,4 +224,123 @@ li a{
 .categories_content--second-category{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 101px;
+}
+.category_modern > p{
+    font-size: 30px;
+    width: 518px;
+    padding-bottom: 130px;
+}
+.category_modern > img{
+    height: 553px;
+    height: 301px;
+    margin-left: -57px;
+}
+.category_modern_description{
+    background-color: #eeedea;
+    width: 626px;
+    height: 496px;
+    border-radius: 20px;
+}
+.category_modern_description--custome, 
+.category_modern_description--price{
+    display: flex;
+    padding: 40px;
+}
+.category_modern_description--custome img, 
+.category_modern_description--price img{
+    margin-right: 36px;
+    object-fit: contain;
+}
+.category_modern_description--custome_title-desc p:nth-child(1){
+    padding: 26px 0;
+    width: 218px;
+    font-size: 15px;
+}
+.category_modern_description--price_title-desc p:nth-child(1){
+    padding: 15px 0;
+}
+.category_modern_description--custome_title-desc p:nth-last-child(1), 
+.category_modern_description--price_title-desc p:nth-last-child(1){
+    width: 331px;
+    color: #454438  ;
+    
+}
+.dream_furniture{
+    margin-bottom: 100px;
+}
+.dream_furniture_content{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    background-color: #2d2d1f;
+}
+.dream_furniture_contente_desc{
+    padding: 80px;
+}
+.dream_furniture_contente_desc > h2{
+    color: #eeedea;
+    padding-bottom : 40px;
+}
+.dream_furniture_contente_desc > p{
+    color: #b1b1aa;
+    padding-bottom : 40px;
+}
+.dream_furniture_contente_desc > button{
+    border-radius: 20px;
+    border: 1px solid #b1b1aa;
+    background-color: #454438;
+    color: aliceblue;
+    width: 223px;
+    height: 42px;
+    cursor: pointer;
+}
+.review_our_title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+.review_people{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.review_people_item{
+    padding: 43px;
+}
+.review_people_item--start{
+    padding-bottom: 32px;
+}
+.review_people_item{
+    border: 1px solid #bdbdb9;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+.review_discount{
+    width: 1215px;
+    height: 401;
+    padding: 200px 110px;
+    background: url(img/review.png) no-repeat center;
+}
+.review_discount h2{
+    color: aliceblue;
+    font-size: 40px;
+    width: 400px;
+    padding-bottom: 25PX;
+}
+.review_discount button{
+    border-radius: 20px;
+    border: 1px solid #b1b1aa;
+    background-color: #454438;
+    color: aliceblue;
+    width: 223px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.footer_content{
+    display: flex;
+    justify-content: space-around;
+    background-color: #eeedea;
+    padding-top: 100px;
 }
